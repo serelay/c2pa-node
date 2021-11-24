@@ -1,0 +1,77 @@
+/**
+  * Copyright © 2021 Serelay Ltd. All rights reserved.
+  */
+
+
+enum JpegSegmentMarker {
+  APP0 = 'APP0',
+  APP1 = 'APP1',
+  APP2 = 'APP2',
+  APP3 = 'APP3',
+  APP4 = 'APP4',
+  APP5 = 'APP5',
+  APP6 = 'APP6',
+  APP7 = 'APP7',
+  APP8 = 'APP8',
+  APP9 = 'APP9',
+  APP10 = 'APP10',
+  APP11 = 'APP11',
+  APP12 = 'APP12',
+  APP13 = 'APP13',
+  APP14 = 'APP14',
+  APP15 = 'APP15',
+  COM = 'COM',
+  DAC = 'DAC',
+  DHP = 'DHP',
+  DHT = 'DHT',
+  DNL = 'DNL',
+  DQT = 'DQT',
+  DRI = 'DRI',
+  EOI = 'EOI',
+  EXP = 'EXP',
+  // JPG is reserved
+  JPG = 'JPG',
+  // JPGn are different to JPG
+  JPG0 = 'JPG0',
+  JPG1 = 'JPG1',
+  JPG2 = 'JPG2',
+  JPG3 = 'JPG3',
+  JPG4 = 'JPG4',
+  JPG5 = 'JPG5',
+  JPG6 = 'JPG6',
+  JPG7 = 'JPG7',
+  JPG8 = 'JPG8',
+  JPG9 = 'JPG9',
+  JPG10 = 'JPG10',
+  JPG11 = 'JPG11',
+  JPG12 = 'JPG12',
+  JPG13 = 'JPG13',
+  RST0 = 'RST0',
+  RST1 = 'RST1',
+  RST2 = 'RST2',
+  RST3 = 'RST3',
+  RST4 = 'RST4',
+  RST5 = 'RST5',
+  RST6 = 'RST6',
+  RST7 = 'RST7',
+  SOF0 = 'SOF0',
+  SOF1 = 'SOF1',
+  SOF2 = 'SOF2',
+  SOF3 = 'SOF3',
+  // 4 is replaced by DHT
+  SOF5 = 'SOF5',
+  SOF6 = 'SOF6',
+  SOF7 = 'SOF7',
+  // 8 is replaced by JPG
+  SOF9 = 'SOF9',
+  SOF10 = 'SOF10',
+  SOF11 = 'SOF11',
+  // 12 is replaced by DAC
+  SOF13 = 'SOF13',
+  SOF14 = 'SOF14',
+  SOF15 = 'SOF15',
+  SOI = 'SOI',
+  SOS = 'SOS',
+}
+
+export default JpegSegmentMarker;

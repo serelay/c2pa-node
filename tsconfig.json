@@ -1,0 +1,14 @@
+{
+  "exclude": ["node_modules", "tests", "./**/*.test.*", "dist"],
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "noImplicitThis": false,
+    "noUnusedLocals": true,
+    "resolveJsonModule": true,
+    "lib": ["es2017", "dom"],
+  }
+}
